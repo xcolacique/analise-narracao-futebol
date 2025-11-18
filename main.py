@@ -32,9 +32,9 @@ def main():
     # Extração e filtro
     print("\nCarregando tweets...")
     df = carregar_tweets(arquivo)
-    print(f"Total de tweets extraídos: {len(df)}")
+    print(f"✓ Total de tweets extraídos: {len(df)}")
     
-    print(f"\nAplicando filtros: {', '.join(termos_procurados)}")
+    print(f"\n Aplicando filtros: {', '.join(termos_procurados)}")
     df_filtrado, textos_filtrados = filtrar_tweets(df, termos_procurados)
     print(f"✓ Tweets filtrados: {len(df_filtrado)} ({len(df_filtrado)/len(df)*100:.1f}%)")
     
