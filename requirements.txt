@@ -1,0 +1,4 @@
+pysentimiento
+wordcloud
+pandas
+matplotlib
