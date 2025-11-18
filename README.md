@@ -80,16 +80,25 @@ O script filtra tweets que contenham (case-insensitive):
 
 ```
 .
-├── main.py                 # Script principal
-├── requirements.txt        # Dependências
-├── README.md              # Este arquivo
-├── .gitignore            # Arquivos ignorados pelo Git
-├── data/                 # Seus arquivos NDJSON (não versionados)
+.
+├── main.py                      # Script principal
+├── requirements.txt             # Dependências
+├── README.md                    # Este arquivo
+├── .gitignore                   # Arquivos ignorados pelo Git
+├── src/                         # Código-fonte modularizado
+│   ├── __init__.py             # Inicialização do pacote
+│   ├── config.py               # Configurações do projeto
+│   ├── data_loader.py          # Carregamento e filtro de dados
+│   ├── analyzer.py             # Análise de sentimentos e sexismo
+│   ├── visualizer.py           # Geração de gráficos
+│   └── utils.py                # Funções utilitárias
+├── data/                        # Seus arquivos NDJSON (não versionados)
 │   └── .gitkeep
-└── output/               # Resultados (não versionados)
+└── output/                      # Resultados (não versionados)
     ├── tweets_filtrados.csv
     ├── analise_sentimentos.csv
     ├── analise_sexismo.csv
+    ├── relatorio_resumo.txt
     └── *.png
 ```
 
