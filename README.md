@@ -80,7 +80,6 @@ O script filtra tweets que contenham (case-insensitive):
 
 ```
 .
-.
 ├── main.py                      # Script principal
 ├── requirements.txt             # Dependências
 ├── README.md                    # Este arquivo
