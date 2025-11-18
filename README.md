@@ -1,1 +1,153 @@
 # analise-narracao-futebol
+
+# Análise de Sentimentos - Narração Feminina de Futebol
+
+Projeto de análise de sentimentos em tweets sobre narração feminina de futebol, utilizando modelos BERT/RoBERTa através da biblioteca pysentimiento.
+
+## Sobre o Projeto
+
+Este projeto analisa tweets coletados via [Zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer) para identificar:
+- **Sentimentos** (positivo, negativo, neutro)
+- **Sexismo** (probabilidade e classificação)
+- **Padrões de engajamento** relacionados à narração feminina
+
+### Modelos Utilizados
+
+- **BERTabaporu**: Modelo RoBERTa treinado com tweets em português
+- **pysentimiento**: Biblioteca para análise de sentimentos e detecção de discurso de ódio
+
+## Instalação
+
+### Requisitos
+- Python 3.7+
+- pip
+
+### Passo a passo
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+# Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\Scripts\activate  # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+```
+
+## Uso
+
+### Análise básica
+
+```bash
+python main.py caminho/para/seu/arquivo.ndjson
+```
+
+### Exemplo com arquivo de dados
+
+```bash
+python main.py data/tweets_futebol.ndjson
+```
+
+### Saída
+
+O script gera automaticamente:
+
+**Arquivos CSV** (pasta `output/`):
+- `tweets_filtrados.csv` - Tweets que contêm os termos buscados
+- `analise_sentimentos.csv` - Resultados da análise de sentimentos
+- `analise_sexismo.csv` - Resultados da análise de sexismo
+
+**Gráficos** (pasta `output/`):
+- `sentimentos_pizza.png` - Distribuição de sentimentos (pizza)
+- `sentimentos_barras.png` - Distribuição de sentimentos (barras)
+- `sexismo_classificacao.png` - Classificação de sexismo
+
+## Termos Filtrados
+
+O script filtra tweets que contenham (case-insensitive):
+- "mulher narrando"
+- "narradora"
+- "renata silveira"
+
+*Para modificar os termos, edite a variável `termos_procurados` no arquivo `main.py`*
+
+## 🔧 Estrutura do Projeto
+
+```
+.
+├── main.py                 # Script principal
+├── requirements.txt        # Dependências
+├── README.md              # Este arquivo
+├── .gitignore            # Arquivos ignorados pelo Git
+├── data/                 # Seus arquivos NDJSON (não versionados)
+│   └── .gitkeep
+└── output/               # Resultados (não versionados)
+    ├── tweets_filtrados.csv
+    ├── analise_sentimentos.csv
+    ├── analise_sexismo.csv
+    └── *.png
+```
+
+## Funcionalidades
+
+### 1. Extração de Dados
+- Leitura de arquivos NDJSON do Zeeschuimer
+- Extração de texto, métricas de engajamento e metadados
+
+### 2. Filtragem
+- Busca por termos específicos (case-insensitive)
+- Contagem e estatísticas de filtros aplicados
+
+### 3. Análise de Sentimentos
+- Classificação: Positivo (POS), Negativo (NEG), Neutro (NEU)
+- Probabilidades para cada categoria
+- Visualizações em pizza e barras
+
+### 4. Análise de Sexismo
+- Detecção via modelo de hate speech
+- Limiar configurável (padrão: 20%)
+- Classificação por faixas de probabilidade
+
+### 5. Visualizações
+- Gráficos salvos em alta resolução (300 DPI)
+- Cores consistentes e profissionais
+- Exportação automática
+
+## Referências
+
+### BERT
+- Devlin et al. (2018). [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805)
+
+### RoBERTa
+- Liu et al. (2019). [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
+
+### BERTabaporu
+- [ACL Anthology](https://aclanthology.org/2023.ranlp-1.24/)
+
+### pysentimiento
+- Pérez et al. (2021). [pysentimiento: A Python Toolkit for Sentiment Analysis](https://arxiv.org/abs/2106.09462)
+- [Documentação oficial](https://pysentimiento.readthedocs.io)
+
+### Zeeschuimer
+- [GitHub - Digital Methods Initiative](https://github.com/digitalmethodsinitiative/zeeschuimer)
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 👥 Autores
+
+- Mônica Colacique - [@xcolacique](https://github.com/xcolacique)
+- Lucas Coelho
+
+## 🙏 Agradecimentos
+
+- Digital Methods Initiative pela ferramenta Zeeschuimer
+- Prof.
+- Equipe pysentimiento pelos modelos pré-treinados
+- Comunidade open-source
