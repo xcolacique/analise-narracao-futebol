@@ -26,7 +26,7 @@ Este projeto analisa tweets coletados via [Zeeschuimer](https://github.com/digit
 
 ```bash
 # Clone o repositório
-git clone (https://github.com/xcolacique/analise-narracao-futebol)](https://github.com/xcolacique/analise-narracao-futebol)
+git clone [https://github.com/xcolacique/analise-narracao-futebol](https://github.com/xcolacique/analise-narracao-futebol)
 cd analise-narracao-futebol
 
 # Crie um ambiente virtual
