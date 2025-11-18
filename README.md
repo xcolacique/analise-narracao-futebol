@@ -143,7 +143,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ## 👥 Autores
 
 - Mônica Colacique - [@xcolacique](https://github.com/xcolacique)
-- Lucas Coelho
+- Lucas de Lima Coelho
 
 ## 🙏 Agradecimentos
 
