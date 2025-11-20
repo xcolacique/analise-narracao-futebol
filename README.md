@@ -123,7 +123,7 @@ O script filtra tweets que contenham (case-insensitive):
 ## Referências
 
 ### BERT
-- Devlin et al. (2018). [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805)
+- Devlin et al. (2018). [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 
 ### RoBERTa
 - Liu et al. (2019). [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
@@ -132,8 +132,7 @@ O script filtra tweets que contenham (case-insensitive):
 - [ACL Anthology](https://aclanthology.org/2023.ranlp-1.24/)
 
 ### pysentimiento
-- Pérez et al. (2021). [pysentimiento: A Python Toolkit for Sentiment Analysis](https://arxiv.org/abs/2106.09462)
-- [Documentação oficial](https://pysentimiento.readthedocs.io)
+- Pérez et al. (2021). [pysentimiento: A Python Toolkit for Opinion Mining and Social NLP tasks](https://arxiv.org/abs/2106.09462)
 
 ### Zeeschuimer
 - [GitHub - Digital Methods Initiative](https://github.com/digitalmethodsinitiative/zeeschuimer)
@@ -146,10 +145,3 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 - Mônica Colacique - [@xcolacique](https://github.com/xcolacique)
 - Lucas de Lima Coelho
-
-## 🙏 Agradecimentos
-
-- Digital Methods Initiative pela ferramenta Zeeschuimer
-- Prof.
-- Equipe pysentimiento pelos modelos pré-treinados
-- Comunidade open-source
