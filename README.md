@@ -129,7 +129,7 @@ O script filtra tweets que contenham (case-insensitive):
 - Liu et al. (2019). [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
 
 ### BERTabaporu
-- BERTabaporu: Assessing a Genre-Specific Language Model for Portuguese NLP [ACL Anthology](https://aclanthology.org/2023.ranlp-1.24/)
+- COSTA et al.(2023) [BERTabaporu: Assessing a Genre-Specific Language Model for Portuguese NLP](https://aclanthology.org/2023.ranlp-1.24/)
 
 ### pysentimiento
 - Pérez et al. (2021). [pysentimiento: A Python Toolkit for Opinion Mining and Social NLP tasks](https://arxiv.org/abs/2106.09462)
