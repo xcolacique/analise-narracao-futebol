@@ -2,7 +2,7 @@
 
 # Análise de Sentimentos - Narração Feminina de Futebol
 
-Projeto de análise de sentimentos em tweets sobre narração feminina de futebol, utilizando o modelo BERTabaporu através da biblioteca pysentimiento. Esse projeto é fruto do projeto extensionista para a disciplina CBD0318 - Método Digitais, ministrada pelo Prof. Dr. Alan César Belo Angeluci, no segundo semestre de 2025, na Escola de Comunicação e Artes da Universidade de São Paulo (ECA-USP).
+Projeto de análise de sentimentos em tweets sobre narração feminina de futebol, utilizando o modelo BERTabaporu através da biblioteca pysentimiento. Esse projeto é fruto do projeto extensionista para a disciplina CBD0318 - Método Digitais, ministrada pelo Prof. Dr. Alan César Belo Angeluci, no segundo semestre de 2025, na Escola de Comunicação e Artes da Universidade de São Paulo (ECA-USP). Agradecemos ao professor e aos monitores da disciplina.
 
 ## Sobre o Projeto
 
@@ -137,11 +137,11 @@ O script filtra tweets que contenham (case-insensitive):
 ### Zeeschuimer
 - [GitHub - Digital Methods Initiative](https://github.com/digitalmethodsinitiative/zeeschuimer)
 
-## 📝 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## 👥 Autores
+## Autores
 
 - Mônica Colacique - [@xcolacique](https://github.com/xcolacique)
 - Lucas de Lima Coelho
