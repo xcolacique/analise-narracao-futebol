@@ -70,7 +70,7 @@ O script filtra tweets que contenham (case-insensitive):
 
 *Para modificar os termos, edite a variável `termos_procurados` no arquivo `main.py`*
 
-## 🔧 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -116,7 +116,7 @@ O script filtra tweets que contenham (case-insensitive):
 - Classificação por faixas de probabilidade
 
 ### 5. Visualizações
-- Gráficos salvos em alta resolução (300 DPI)
+- Gráficos salvos em alta resolução
 - Cores consistentes e profissionais
 - Exportação automática
 
