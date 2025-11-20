@@ -2,7 +2,7 @@
 
 # Análise de Sentimentos - Narração Feminina de Futebol
 
-Projeto de análise de sentimentos em tweets sobre narração feminina de futebol, utilizando modelos BERT/RoBERTa através da biblioteca pysentimiento.
+Projeto de análise de sentimentos em tweets sobre narração feminina de futebol, utilizando o modelo BERTabaporu através da biblioteca pysentimiento. Esse projeto é fruto do projeto extensionista para a disciplina CBD0318 - Método Digitais, ministrada pelo Prof. Dr. Alan César Belo Angeluci, no segundo semestre de 2025, na Escola de Comunicação e Artes da Universidade de São Paulo (ECA-USP).
 
 ## Sobre o Projeto
 
@@ -44,13 +44,7 @@ pip install -r requirements.txt
 ### Análise básica
 
 ```bash
-python main.py caminho/para/seu/arquivo.ndjson
-```
-
-### Exemplo com arquivo de dados
-
-```bash
-python main.py data/tweets_futebol.ndjson
+python main.py <caminho/arquivo.ndjson>
 ```
 
 ### Saída
